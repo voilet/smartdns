@@ -5,6 +5,8 @@
 * 基于https://github.com/lionsoul2014/ip2region/tree/master/binding/golang IP库进行查询解析
 * 主要数据结构如下
   ![Example Image](images/iShot_2024-06-18_21.42.57.jpg)
+* 使用方法 下载coredns源码，修改plugin.cfg文件 在最后一行增加smartdns:github.com/voilet/smartdns 修改后使用make编译即可
+* 使用方法 在corefile中增加smartdns插件即可，和redis插件一样使用，多增加一个ipdbpath参数 指定ip2region xdb数据库路径
 
 ## syntax
 
