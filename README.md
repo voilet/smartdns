@@ -68,7 +68,7 @@ proxy is not supported yet
 each zone is stored in redis as a hash map with *zone* as key
 
 ~~~
-redis-cli>KEYS *
+redis-cli>KEYS example*
 1) "example.com."
 2) "example.net."
 redis-cli>
